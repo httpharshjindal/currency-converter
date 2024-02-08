@@ -1,0 +1,271 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #container img{
+        width: 100px;
+    }
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+    body{
+        background-color: #3B1247;
+        box-sizing: border-box;
+        color: #3B1247;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #f8f8f8;
+        max-width:750px;
+        height: 550px;
+        border-radius: 60px; 
+        user-select: none;
+        margin: auto ;
+        margin-top: 10em;
+        overflow: hidden;
+    
+    }
+    
+    #container>p{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    
+    .innercontainer{
+        margin:20px auto;
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        overflow: hidden;
+        
+    }
+    .from *, .to *{
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        padding-left: 10px;
+        width: 300px;
+        border-radius: 20px;
+        gap: 5px;   
+        outline: none;
+    }
+    input{
+        border: 2px solid #3B1247;
+        color: #3B1247;
+        outline: none;
+        
+    }
+    
+    select{
+        /* background-image:url("https://flagsapi.com/US/flat/64.png"); */
+        background-size:12%;
+        background-position:70px;
+        background-repeat: no-repeat;
+        /* background-blend-mode: hue; */
+        color: #ffffff;
+        border: 2px solid #3B1247;
+        background-color: #3B1247;
+        cursor: pointer;
+        text-align:center;
+       
+    }
+    #exc-text{
+        font-size: 2.5rem;
+        /* margin: 20px; */
+        font-weight: bold;
+        /* max-width: 300px; */
+    }
+    
+    #exc-btn {
+        font-size: 4rem;
+        border: none;
+        outline: none;
+        background: none;
+        color: #3B1247;
+    
+    }
+    #exc-btn:hover{
+        padding-bottom: 2px;
+    }
+    
+    
+    
+    #convert-btn{
+        margin: 20px auto;
+        font-size: 2rem;
+        padding: 5px;
+        width: 20em;
+        text-align: center;
+        background-color: #ffffff;
+        color: #3B1247;
+        border: solid 1px #3B1247;
+        border-radius: 15px;
+        box-shadow: #3B1247 -2px 6px 1px;
+    }
+    #convert-btn:hover{
+        color: #ffffff;
+        background-color: #3B1247;
+        box-shadow: #3b3b3b -2px 6px 1px;
+    }
+
+
+@media only screen and (max-device-width: 480px){ 
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #container img{
+        width: 80px;
+    }
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+
+    body{
+        color: #3B1247;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        
+    }
+    
+    #container{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #f8f8f8;
+        max-width:350px;
+        height: 500px;
+        border-radius: 30px; 
+        user-select: none;
+        margin: auto ;
+        margin-top: 5em;
+        overflow: hidden;
+    
+    }
+    
+    #container>p{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .innercontainer{
+        margin:10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        overflow: hidden;
+        
+    }
+    .from *, .to *{
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        padding-left: 10px;
+        width: 300px;
+        border-radius: 20px;
+        gap: 5px;   
+        outline: none;
+    }
+    input{
+        border: 1px solid #3B1247;
+        color: #3B1247;
+        outline: none;
+        
+    }
+    
+    select{
+        /* background-image:url("https://flagsapi.com/US/flat/64.png"); */
+        background-size:8%;
+        background-position:85px;
+        background-repeat: no-repeat;
+        /* background-blend-mode: hue; */
+        color: #ffffff;
+        border: 2px solid #3B1247;
+        background-color: #3B1247;
+        cursor: pointer;
+        text-align:center;
+       
+    }
+    #exc-text{
+        font-size:1.5rem;
+        /* margin: 20px; */
+        font-weight: bold;
+        /* max-width: 300px; */
+    }
+    
+    #exc-btn {
+        font-size: 4rem;
+        border: none;
+        outline: none;
+        background: none;
+        color: #3B1247;
+        rotate:90%;
+    
+    }
+    #exc-btn:hover{
+        padding-bottom: 2px;
+    }
+    
+    
+    
+    #convert-btn{
+        margin: 20px auto;
+        font-size: 2rem;
+        padding: 5px;
+        width: 8em;
+        text-align: center;
+        background-color: #ffffff;
+        color: #3B1247;
+        border: solid 1px #3B1247;
+        border-radius: 15px;
+        box-shadow: #3B1247 -2px 6px 1px;
+    }
+    #convert-btn:hover{
+        color: #ffffff;
+        background-color: #3B1247;
+        box-shadow: #3b3b3b -2px 6px 1px;
+    }
+
+  }
